@@ -14,7 +14,7 @@ Say we have an API:
 flub :: { foo :: Int, bar :: String, baz :: Maybe Boolean } -> String
 ```
 
-This API has very straightforwad and understandable options.
+This API has very straightforward and understandable options.
 
 ```purescript
 example = flub

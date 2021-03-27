@@ -145,7 +145,7 @@ And now we have our highly-overloaded API.
 > What happens if I don't write an identity conversion?
 
 An identity conversion isn't strictly necessary, it just means you won't be able
-to call the API with the "unconverted" type. This means for something like `baz`,
+to call the API with the canonical type. This means for something like `baz`,
 you could only express the absence of that option by omitting the field
 altogether. This is rarely a good idea, since it means a user can't easily guard
 the value on a condition.
